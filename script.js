@@ -1,24 +1,23 @@
-// Grid de receitas — placeholders coloridos (trocar por fotos reais dos pratos)
+// Grid de receitas — fotos reais em public/imgs
 const recipes = [
-  ["🍗","Frango à Parmegiana","#e2600f,#f39c2e"],
-  ["🥟","Coxinha Desfiada","#d35400,#f39c12"],
-  ["🥡","Frango Xadrez","#c17817,#f39c2e"],
-  ["🍲","Frango ao Molho","#a04000,#e59866"],
-  ["🍔","Hambúrguer de Frango","#a8420a,#e2600f"],
-  ["🍤","Empanado Crocante","#af601a,#f5b041"],
-  ["🍽️","Frango na Airfryer","#c1440e,#f5b942"],
-  ["🥘","Strogonoff","#6e2c00,#dc7633"],
-  ["🥪","Sanduíche de Frango Desfiado","#a8420a,#f39c2e"],
-  ["🍢","Espetinho","#b8460a,#f5b942"],
-  ["🍖","Frango Grelhado Temperado","#935116,#f0b27a"],
-  ["🥞","Panqueca de Frango","#873600,#e0a458"]
+  ["Frango à Parmegiana","filedefrangoaparmegiana 1.jpg"],
+  ["Frango Assado com Batatas","f8918f6ca04ec2baaa305b5b254ce4f1_XL 1.jpg"],
+  ["Asinhas de Frango Assadas","617014-asa-de-frango_rec 1.jpg"],
+  ["Frango ao Molho Gratinado","iStock-1464250716 1.jpg"],
+  ["Rolinho de Frango com Bacon","images 1.jpg"],
+  ["Empanado Crocante","peito-de-frango-crocante-agridoce-portal-minha-receita 1.jpg"],
+  ["Frango na Airfryer","frango-com-legumes-na-airfryer 1.jpg"],
+  ["Strogonoff de Frango","receitadeestrogonofedefrangorapido 1.jpg"],
+  ["Sanduíche de Frango Desfiado","sanduiche-de-frango-light 1.jpg"],
+  ["Espetinho de Frango","Peito-frango-recheado-bacon-tomate-abobrinha-Baixa-4 1.jpg"],
+  ["Frango Grelhado Temperado","File-de-frango 1.jpg"],
+  ["Peito de Frango Recheado no Forno","Peito-de-Frango-Recheado-no-Forno-Veja-a-Receita-e-Faca-Para-o-Almoco 1.jpg"]
 ];
 const grid = document.getElementById("recipes-grid");
-recipes.forEach(([emoji,name,colors])=>{
+recipes.forEach(([name,file])=>{
   const div = document.createElement("div");
   div.className = "recipe-card";
-  div.style.background = `linear-gradient(135deg, ${colors})`;
-  div.innerHTML = `<div class="emoji">${emoji}</div><div class="overlay">${name}</div>`;
+  div.innerHTML = `<img src="${encodeURI("public/imgs/" + file)}" alt="${name}" loading="lazy"><div class="overlay">${name}</div>`;
   grid.appendChild(div);
 });
 
