@@ -245,8 +245,6 @@
     border-radius:10px;
     overflow:hidden;
     position:relative;
-    display:flex;
-    align-items:flex-end;
     box-shadow:0 6px 16px rgba(0,0,0,.12);
   }
   .recipe-card img{
@@ -257,15 +255,16 @@
     object-fit:cover;
     z-index:0;
   }
-  .recipe-card .overlay{
-    position:relative;
+  .recipe-card .kcal-badge{
+    position:absolute;
+    top:8px;right:8px;
     z-index:1;
-    width:100%;
-    background:linear-gradient(0deg,rgba(0,0,0,.75),transparent 70%);
-    color:#fff;
+    background:rgba(0,0,0,.65);
+    color:var(--yellow);
     font-size:11px;
     font-weight:700;
-    padding:8px 10px;
+    padding:4px 9px;
+    border-radius:20px;
   }
   .recipe-card:hover{transform:scale(1.03);transition:transform .2s ease;}
 
