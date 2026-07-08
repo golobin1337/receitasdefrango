@@ -16,6 +16,7 @@
     color:var(--dark);
     background:#fff;
     line-height:1.5;
+    overflow-x:hidden;
   }
   img{max-width:100%;display:block;}
   a{text-decoration:none;color:inherit;}
@@ -133,6 +134,28 @@
     align-items:center;
     gap:6px;
   }
+
+  /* trust badges */
+  .badges{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    gap:14px;
+    max-width:640px;
+    margin:22px auto 0;
+  }
+  .badge{
+    background:#fff;
+    border:1px solid #eee;
+    border-radius:12px;
+    box-shadow:0 6px 16px rgba(0,0,0,.05);
+    padding:14px 26px;
+    text-align:center;
+    flex:1;
+    min-width:130px;
+  }
+  .badge .n{font-weight:900;font-size:20px;color:#e2600f;}
+  .badge .t{font-size:11px;color:var(--gray-text);letter-spacing:.5px;text-transform:uppercase;}
 
   /* ===== SECTION GENERIC ===== */
   section{padding:60px 20px;}
@@ -401,7 +424,8 @@
   .guarantee-icon{font-size:34px;flex-shrink:0;}
   .guarantee-title{font-weight:800;font-size:16px;color:var(--dark);margin-bottom:6px;}
   .guarantee-text{font-size:13px;color:var(--gray-text);line-height:1.5;}
-  .guarantee-trust-row{margin-top:16px;}
+  .guarantee-trust-row{margin-top:16px;flex-wrap:wrap;}
+  .guarantee-trust-row .trust-item{white-space:normal;}
 
   /* ===== TESTIMONIALS ===== */
   .testi-sec{text-align:center;}
