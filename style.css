@@ -249,6 +249,7 @@
     border:1px solid #ffddb0;
     border-radius:10px;
     padding:22px 20px;
+    text-align:center;
   }
   .benefit-card .ico{font-size:24px;margin-bottom:10px;}
   .benefit-card h3{font-size:15px;margin-bottom:6px;}
