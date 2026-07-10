@@ -58,20 +58,20 @@
     padding:32px 20px 32px;
   }
   .hero h1{
-    font-size:38px;
+    font-size:40px;
     font-weight:800;
     margin-bottom:2px;
   }
   .hero h1 .big{
     display:block;
-    font-size:48px;
+    font-size:50px;
     color:var(--red);
   }
   .hero .sub{
     max-width:480px;
     margin:10px auto 20px;
     color:var(--gray-text);
-    font-size:16px;
+    font-size:17px;
   }
   .hero-image{
     max-width:360px;
@@ -89,7 +89,7 @@
   .price-block{margin:0 0 16px;}
   .price-old{
     color:var(--gray-text);
-    font-size:15px;
+    font-size:16px;
   }
   .price-old s{
     color:#e53935;
@@ -110,7 +110,7 @@
     background:#2e9e44;
     color:#fff;
     font-weight:800;
-    font-size:16px;
+    font-size:17px;
     padding:16px 40px;
     border-radius:18px;
     box-shadow:0 10px 24px rgba(46,158,68,.35);
@@ -167,7 +167,7 @@
   section{padding:60px 20px;}
   .sec-title{
     text-align:center;
-    font-size:28px;
+    font-size:30px;
     font-weight:800;
     margin-bottom:8px;
   }
@@ -176,7 +176,7 @@
     color:var(--gray-text);
     max-width:560px;
     margin:0 auto 34px;
-    font-size:15px;
+    font-size:16px;
   }
 
   /* ===== FILTRO DE PUBLICO ===== */
@@ -194,10 +194,10 @@
     border-radius:8px;
     padding:20px 18px;
     box-shadow:0 4px 14px rgba(0,0,0,.05);
-    font-size:14px;
+    font-size:15px;
     color:var(--gray-text);
   }
-  .filter-card .ico{font-size:22px;margin-bottom:8px;}
+  .filter-card .ico{font-size:24px;margin-bottom:8px;}
 
   /* ===== URGENCY BANNER ===== */
   .urgency-wrap{
@@ -205,7 +205,7 @@
     padding:60px 20px 50px;
   }
   .urgency-wrap h2{
-    font-size:26px;
+    font-size:28px;
     font-weight:800;
     max-width:620px;
     margin:0 auto 26px;
@@ -220,12 +220,12 @@
     box-shadow:0 16px 34px rgba(226,96,15,.3);
   }
   .urgency-box .warn{
-    font-size:19px;
+    font-size:20px;
     font-weight:900;
     letter-spacing:.5px;
     margin-bottom:8px;
   }
-  .urgency-box .info{font-size:13px;opacity:.92;}
+  .urgency-box .info{font-size:14px;opacity:.92;}
   .countdown{
     display:flex;
     justify-content:center;
@@ -257,9 +257,9 @@
     padding:22px 20px;
     text-align:center;
   }
-  .benefit-card .ico{font-size:24px;margin-bottom:10px;}
-  .benefit-card h3{font-size:15px;margin-bottom:6px;}
-  .benefit-card p{font-size:13px;color:var(--gray-text);}
+  .benefit-card .ico{font-size:26px;margin-bottom:10px;}
+  .benefit-card h3{font-size:16px;margin-bottom:6px;}
+  .benefit-card p{font-size:14px;color:var(--gray-text);}
 
   /* ===== RECEITAS GRID ===== */
   .recipes-sec{background:linear-gradient(180deg,#fff,#ffe8cc);}
@@ -351,8 +351,8 @@
     padding:6px 14px;
     border-radius:20px;
   }
-  .bonus-card h3{font-size:15px;margin-bottom:8px;}
-  .bonus-card p{font-size:13px;color:var(--gray-text);}
+  .bonus-card h3{font-size:16px;margin-bottom:8px;}
+  .bonus-card p{font-size:14px;color:var(--gray-text);}
 
   /* ===== PRICING ===== */
   .pricing-sec{background:var(--cream);}
@@ -392,7 +392,7 @@
     padding:14px;
     border-radius:14px;
     font-weight:800;
-    font-size:14px;
+    font-size:15px;
   }
 
   /* header/body/footer do plano */
@@ -409,12 +409,12 @@
     background:var(--cream);
     color:var(--dark);
   }
-  .plan-header-name{font-size:22px;font-weight:800;margin-bottom:4px;}
-  .plan-header-sub{font-size:13px;opacity:.9;margin-bottom:16px;}
-  .plan-header-old{font-size:14px;opacity:.75;text-decoration:line-through;margin-bottom:2px;}
+  .plan-header-name{font-size:23px;font-weight:800;margin-bottom:4px;}
+  .plan-header-sub{font-size:14px;opacity:.9;margin-bottom:16px;}
+  .plan-header-old{font-size:15px;opacity:.75;text-decoration:line-through;margin-bottom:2px;}
   .plan-header-price{font-size:42px;font-weight:900;line-height:1;}
   .plan-header-price small{font-size:20px;font-weight:700;}
-  .plan-header-note{font-size:12px;opacity:.85;margin-top:6px;}
+  .plan-header-note{font-size:13px;opacity:.85;margin-top:6px;}
   .plan-header--cream .plan-header-sub,
   .plan-header--cream .plan-header-old,
   .plan-header--cream .plan-header-note{color:var(--gray-text);opacity:1;}
@@ -422,7 +422,7 @@
   .plan-body{padding:22px 24px 4px;}
   .plan-body ul{list-style:none;}
   .plan-body ul li{
-    font-size:13px;
+    font-size:14px;
     padding:10px 0;
     display:flex;
     gap:8px;
@@ -450,8 +450,8 @@
     text-align:left;
   }
   .guarantee-icon{font-size:34px;flex-shrink:0;}
-  .guarantee-title{font-weight:800;font-size:16px;color:var(--dark);margin-bottom:6px;}
-  .guarantee-text{font-size:13px;color:var(--gray-text);line-height:1.5;}
+  .guarantee-title{font-weight:800;font-size:17px;color:var(--dark);margin-bottom:6px;}
+  .guarantee-text{font-size:14px;color:var(--gray-text);line-height:1.5;}
   .guarantee-trust-row{margin-top:16px;flex-wrap:wrap;}
   .guarantee-trust-row .trust-item{white-space:normal;}
 
@@ -459,7 +459,7 @@
   .testi-sec{text-align:center;}
   .rating-big{font-size:44px;font-weight:900;margin:8px 0 4px;}
   .stars{color:var(--yellow);font-size:20px;letter-spacing:2px;margin-bottom:6px;}
-  .rating-sub{font-size:13px;color:var(--gray-text);margin-bottom:30px;}
+  .rating-sub{font-size:14px;color:var(--gray-text);margin-bottom:30px;}
   .testi-grid{
     display:grid;
     grid-template-columns:repeat(3,1fr);
@@ -482,9 +482,9 @@
     color:#fff;font-weight:800;font-size:14px;
     flex-shrink:0;
   }
-  .testi-name{font-size:13px;font-weight:700;}
+  .testi-name{font-size:14px;font-weight:700;}
   .testi-stars{color:var(--yellow);font-size:12px;}
-  .testi-card p{font-size:13px;color:var(--gray-text);}
+  .testi-card p{font-size:14px;color:var(--gray-text);}
 
   /* ===== FAQ ===== */
   .faq-sec{max-width:700px;margin:0 auto;padding:60px 20px;}
@@ -495,7 +495,7 @@
   summary{
     cursor:pointer;
     font-weight:700;
-    font-size:15px;
+    font-size:16px;
     list-style:none;
     display:flex;
     justify-content:space-between;
@@ -511,7 +511,7 @@
   }
   details[open] summary::after{transform:rotate(45deg);}
   details p{
-    font-size:13px;
+    font-size:14px;
     color:var(--gray-text);
     margin-top:10px;
     padding-right:24px;
@@ -524,12 +524,12 @@
     padding:60px 20px 50px;
   }
   .final-cta h2{
-    font-size:26px;
+    font-size:28px;
     font-weight:800;
     max-width:560px;
     margin:0 auto 10px;
   }
-  .final-cta .sub{font-size:14px;color:var(--gray-text);margin-bottom:24px;}
+  .final-cta .sub{font-size:15px;color:var(--gray-text);margin-bottom:24px;}
 
   footer{
     background:var(--dark);
@@ -540,8 +540,8 @@
   }
 
   @media (max-width:760px){
-    .hero h1{font-size:28px;}
-    .hero h1 .big{font-size:34px;}
+    .hero h1{font-size:30px;}
+    .hero h1 .big{font-size:36px;}
     .filter-grid,.benefits-grid,.bonus-grid,.testi-grid{grid-template-columns:1fr 1fr;}
     .recipes-grid{grid-template-columns:repeat(3,1fr);}
     .pricing-grid{grid-template-columns:1fr;}
@@ -550,5 +550,5 @@
   @media (max-width:480px){
     .filter-grid,.benefits-grid,.bonus-grid,.testi-grid{grid-template-columns:1fr;}
     .recipes-grid{grid-template-columns:repeat(2,1fr);}
-    .sec-title{font-size:22px;}
+    .sec-title{font-size:23px;}
   }
