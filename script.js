@@ -17,7 +17,7 @@ const grid = document.getElementById("recipes-grid");
 recipes.forEach(([name,file,kcal])=>{
   const div = document.createElement("div");
   div.className = "recipe-card";
-  div.innerHTML = `<img src="${encodeURI("public/imgs/" + file)}" alt="${name}" loading="lazy"><div class="kcal-badge">${kcal} kcal</div>`;
+  div.innerHTML = `<img src="${encodeURI("public/imgs/" + file)}" alt="${name}" loading="lazy" decoding="async"><div class="kcal-badge">${kcal} kcal</div>`;
   grid.appendChild(div);
 });
 
