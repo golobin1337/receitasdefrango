@@ -539,6 +539,105 @@
     padding:24px 20px;
   }
 
+  /* ===== UPSELL ===== */
+  .upsell-banner{
+    background:linear-gradient(160deg,var(--red),var(--red-dark));
+    color:#fff;
+    text-align:center;
+    padding:36px 20px 30px;
+  }
+  .upsell-tag{
+    display:inline-block;
+    background:rgba(255,255,255,.18);
+    border:1px solid rgba(255,255,255,.4);
+    color:#fff;
+    font-size:12px;
+    font-weight:700;
+    letter-spacing:.5px;
+    padding:6px 16px;
+    border-radius:20px;
+    margin-bottom:16px;
+  }
+  .upsell-banner h1{
+    font-size:27px;
+    font-weight:900;
+    line-height:1.25;
+    margin-bottom:14px;
+  }
+  .upsell-gift{font-size:40px;margin-bottom:14px;}
+  .upsell-banner .sub{
+    font-size:14px;
+    font-weight:700;
+    line-height:1.6;
+    max-width:420px;
+    margin:0 auto;
+  }
+  .upsell-banner .sub .hl{color:var(--yellow);}
+
+  .upsell-price-sec{padding:30px 20px 6px;text-align:center;}
+  .upsell-price-row{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    gap:10px;
+    flex-wrap:wrap;
+    margin-bottom:8px;
+  }
+  .upsell-price-old{color:var(--gray-text);text-decoration:line-through;font-size:16px;}
+  .upsell-save{
+    background:#eafbee;
+    color:#237a3c;
+    border:1px solid #bfe8c8;
+    font-size:12px;
+    font-weight:800;
+    padding:4px 12px;
+    border-radius:20px;
+    white-space:nowrap;
+  }
+  .upsell-price-new{color:#2e9e44;font-size:48px;font-weight:900;}
+  .upsell-price-new small{font-size:20px;font-weight:700;}
+  .upsell-price-note{font-size:13px;color:var(--gray-text);}
+
+  .upsell-list-sec{padding:20px 20px 6px;max-width:600px;margin:0 auto;}
+  .upsell-list-title{
+    font-size:14px;
+    font-weight:800;
+    letter-spacing:.3px;
+    margin-bottom:14px;
+    color:var(--dark);
+    text-transform:uppercase;
+  }
+  .upsell-list-sec ul{list-style:none;}
+  .upsell-list-sec li{
+    display:flex;
+    gap:10px;
+    align-items:flex-start;
+    padding:10px 0;
+    border-bottom:1px solid #f0f0f0;
+    font-size:14px;
+    color:var(--dark);
+  }
+  .upsell-list-sec li:last-child{border-bottom:none;}
+
+  .upsell-cta-wrap{padding:16px 20px 24px;max-width:600px;margin:0 auto;text-align:center;}
+  .upsell-cta-wrap .cta-btn{width:100%;}
+  .upsell-decline{
+    display:block;
+    margin-top:18px;
+    font-size:13px;
+    color:var(--gray-text);
+    text-decoration:underline;
+  }
+  .upsell-security{
+    font-size:12px;
+    color:var(--gray-text);
+    margin-top:18px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    gap:6px;
+  }
+
   @media (max-width:760px){
     .hero h1{font-size:30px;}
     .hero h1 .big{font-size:36px;}
